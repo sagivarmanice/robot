@@ -11,6 +11,6 @@ For Loop
 For List Loop
   :FOR  ${i}  IN  @{a}
   \  Log  ${i}
-
+  \  Log  ${i}
   :FOR  ${i}  IN  @{k.keys()}
   \  Log  Key is ${i} and corresponding value is &{k}[${i}]
