@@ -10,3 +10,4 @@ Test title2
   [Documentation]  This is Octal conversion
   ${x}=  Convert to Octal  10
   log  ${x}
+  log ${x}
